@@ -6,3 +6,6 @@ Para jogar, execute o arquivo HTML no navegador. O código contém os gabaritos 
 Ao final da rodada, poderá visualizar a pontuação total, assim como quantos pontos fez em cada programa.
 
 Para adicionar mais programas e seus respectivos gabaritos, basta adicioná-los no array "programasEGabaritos".
+
+O livro Street Fighter II que possui os devidos gabaritos já no código pode ser acessado nesse link: 
+https://datassette.s3.us-west-004.backblazeb2.com/livros/pense_bem_-_street_fighter_ii.pdf
