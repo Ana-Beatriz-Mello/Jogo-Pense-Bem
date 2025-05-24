@@ -1,0 +1,205 @@
+body{
+	background-color: rgb(180, 60, 4);
+	background-image: url(img1.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	
+	}
+
+.botoes {
+
+    height:500px;
+    width:500px;
+
+}
+
+#vermelho {
+
+    background-color: red;
+
+}
+
+#verde{
+
+    background-color: green;
+
+}
+
+#amarelo {
+
+    background-color: yellow;
+
+}
+
+#azul {
+
+    background-color: blue;
+
+}
+
+#vermelho, #verde, #amarelo, #azul {
+    height:50px;
+    width:50px;
+    border: solid 2px;
+	margin-left:90px;
+	margin-top:10px;
+}
+
+.botoes {
+
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	z-index: 15;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+	background: #fff2c2;
+	
+	display: grid;
+    grid-template-columns: 70px 70px; 
+    grid-template-rows: auto auto;
+    grid-gap: 1px;
+    grid-auto-flow: column;
+    height: 150px;
+	
+	border-style: double;
+	
+}
+
+#contadorDasQuestões {
+	
+	position: absolute;
+	width: 300px;
+	height: 50px;
+	z-index: 15;
+	top: 30%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+	background: rgb(0, 0, 0);
+	text-align:center;
+	color: white;
+	
+}
+
+.hidden {
+	
+	visibility:hidden;
+	
+}
+
+.prompt, textarea {
+	
+	resize:none;
+	text-align:center;
+	color: rgb(0, 0, 0);
+	
+}
+
+.prompt{
+	
+	position: absolute;
+	width: 300px;
+	height: 50px;
+	z-index: 15;
+	top: 30%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+	text-align:center;
+	
+	
+}
+
+#comecar {
+	
+	margin-top:10px;
+	height:40px;
+	width:70px;
+	
+}
+
+.score {
+	
+	float:left;
+	display:inline-block;
+	margin:10px;
+	width: 170px;
+	height:90px;
+	text-align:center;
+	border-style:solid;
+
+	
+	margin-left:45px;
+	margin-top:20px;
+	
+}
+
+.feedback {
+	
+	border-style: double;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	z-index: 15;
+	top: 30%;
+	left: 45%;
+	margin: -100px 0 0 -150px;
+	text-align:center;
+
+	background-image:URL("gif-points.gif");
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+.total {
+	
+	width: 500px;
+	height:100px;
+	border-style:solid;
+	text-align:center;
+	
+	
+}
+
+.numerico, .valueTotal {
+	
+	text-align:center;
+	vertical-align: middle;
+	line-height: 30px;
+	margin-top:20px;
+	
+	
+}
+
+.banner {
+	text-align:center;
+	font-size: xx-large;	
+	font-style: italic;
+	color: rgb(222, 230, 231);
+	font-family: Helvetica;
+}
+
+#comecarNovoJogo {
+	
+	height:50px;
+	width:150px;
+	cursor:pointer;
+	
+}
+
+.partida {
+	
+	margin-top:20px;
+    color:white;
+    font-family:Calibri;
+}
+
+.total, .score {
+
+
+	background: rgba(255, 255, 255, 0.4);
+	color:black;
+	font-style:oblique;
+
+}

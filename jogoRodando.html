@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href=jogoRodando.css>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa</title>
+</head>
+<body>
+
+	<div class = 'banner'>
+		Pense Certo!
+	</div>
+	
+	<div class = 'partida'>
+		<center><button id = 'comecarNovoJogo'>Comerçar Partida!</button></center>
+	</div>
+
+	<div class = "prompt hidden">
+	
+		Qual programa quer jogar?
+	
+		<input type = 'text' required minlength="3" maxlength="3" id = 'programa' name = 'programa'></input>
+		
+		<br>
+		
+		<button id = 'comecar'>Jogar!</button>
+		
+		<div id = 'mensagem'>
+		</div>
+	
+	</div>
+
+
+	<div class = "jogo hidden">
+
+		<div id = "contadorDasQuestões">
+			Questão <div id = "number">1</div>
+		</div>
+	
+		<div class = "botoes">
+			<div id = "vermelho"></div>
+			<div id = "amarelo"></div>
+			<div id = "azul"></div>
+			<div id = "verde"></div>
+		</div>
+
+	</div>
+	
+	<div class = 'feedback hidden'>
+	
+		<div class = 'total'></div>
+		<div class = 'score'></div>
+		<div class = 'score'></div>
+		<div class = 'score'></div>
+		<div class = 'score'></div>
+		<div class = 'score'></div>
+		<div class = 'score'></div>
+		
+	</div>
+	
+	<script src="jogoRodando.js"></script>
+	
+</body>
+</html>
